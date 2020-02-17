@@ -1,0 +1,28 @@
+{
+  "name": "text-input-vue-component",
+  "version": "1.0.0",
+  "description": "An experimental reactjs and vuejs text input editor component.",
+  "main": "dist/text-input-vue-component.min.js",
+  "module": "dist/index.js",
+  "unpkg": "dist/text-input-vue-component.min.js",
+  "jsdelivr": "dist/text-input-vue-component.min.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plantain-00/text-input-component.git"
+  },
+  "author": "plantain-00_NAME",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plantain-00/text-input-component/issues"
+  },
+  "homepage": "https://github.com/plantain-00/text-input-component#readme",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "vue": "2",
+    "vue-class-component": "6",
+    "text-input-component": "^1.0.0"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "text-input-component",
+  "version": "0.0.1",
+  "description": "An experimental reactjs and vuejs text input editor component.",
+  "main": "index.js",
+  "dependencies": {
+    "tslib": "1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "@rollup/plugin-commonjs": "11.0.2",
+    "@rollup/plugin-node-resolve": "7.1.1",
+    "@types/jasmine": "3.5.4",
+    "@types/puppeteer": "2.0.0",
+    "@types/react-test-renderer": "16.9.2",
+    "@typescript-eslint/eslint-plugin": "2.19.2",
+    "@typescript-eslint/parser": "2.19.2",
+    "autoprefixer": "9.7.4",
+    "clean-css-cli": "4.3.0",
+    "clean-scripts": "1.12.1",
+    "cross-env": "7.0.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-plantain": "0.1.2",
+    "file2variable-cli": "1.9.0",
+    "github-fork-ribbon-css": "0.2.3",
+    "http-server": "0.12.1",
+    "jasmine": "3.5.0",
+    "karma": "4.4.1",
+    "karma-chrome-launcher": "3.1.0",
+    "karma-firefox-launcher": "1.3.0",
+    "karma-jasmine": "3.1.1",
+    "karma-webpack": "4.0.2",
+    "lerna": "^3.18.4",
+    "less": "3.11.1",
+    "markdownlint-cli": "0.22.0",
+    "no-unused-export": "1.10.0",
+    "postcss-cli": "7.1.0",
+    "puppeteer": "2.1.1",
+    "react-test-renderer": "16.12.0",
+    "rev-static": "3.4.3",
+    "rollup": "1.31.1",
+    "rollup-plugin-uglify": "6.0.4",
+    "stylelint": "13.2.0",
+    "stylelint-config-standard": "20.0.0",
+    "type-coverage": "2.4.0",
+    "typescript": "3.7.5",
+    "vue-test-utils": "1.0.0-beta.11",
+    "watch-then-execute": "1.1.1",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap -- --frozen-lockfile",
+    "build": "clean-scripts build",
+    "dev": "cross-env NODE_ENV=development clean-scripts build",
+    "lint": "clean-scripts lint",
+    "test": "clean-scripts test",
+    "fix": "clean-scripts fix",
+    "watch": "clean-scripts watch",
+    "screenshot": "clean-scripts screenshot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plantain-00/text-input-component.git"
+  },
+  "author": "York",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plantain-00/text-input-component/issues"
+  },
+  "homepage": "https://github.com/plantain-00/text-input-component#readme",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "typeCoverage": {
+    "atLeast": 100
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "text-input-react-component",
+  "version": "1.0.0",
+  "description": "An experimental reactjs and vuejs text input editor component.",
+  "main": "dist/text-input-react-component.min.js",
+  "module": "dist/index.js",
+  "unpkg": "dist/text-input-react-component.min.js",
+  "jsdelivr": "dist/text-input-react-component.min.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plantain-00/text-input-component.git"
+  },
+  "author": "plantain-00",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plantain-00/text-input-component/issues"
+  },
+  "homepage": "https://github.com/plantain-00/text-input-component#readme",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "react": "16",
+    "react-dom": "16",
+    "text-input-component": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.0.25",
+    "@types/react-dom": "16.0.3"
+  }
+}
