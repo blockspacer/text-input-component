@@ -21,8 +21,8 @@
     "dist"
   ],
   "dependencies": {
+    "text-input-component": "^1.0.0",
     "vue": "2",
-    "vue-class-component": "6",
-    "text-input-component": "^1.0.0"
+    "vue-class-component": "7"
   }
 }
